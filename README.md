@@ -1,24 +1,57 @@
-Issue Status Insight: Time In Status
+# Issue Status Insight
 
-Overview
+**Issue Status Insight** is an Atlassian Forge app designed to provide a **quick, comprehensive view** of the time spent in each status of a Jira issue. It allows users to **easily track status transitions** and **aggregate the total time spent in each status** across all transitions, giving better insights into an issue’s lifecycle.
 
-The Issue Status Insight app provides detailed insights into the status changes of your Jira issues. It allows users to view the history of status changes, including who made the changes and when. The app also displays the time spent in each status, giving you a comprehensive view of your issue’s lifecycle.
+---
 
-Features
+## Features
 
-Status Change History
-View Change Logs: See detailed records of each status change for an issue.
-Change Details: Includes information on who made the change and when it was made.
-Time in Status: Displays the time spent in each status before transitioning to the next.
-Total Time Spent in Status
-Aggregated Time: Shows the total time spent in each status, aggregated across all transitions for the issue.
-How to Use
+### 1. Status Change History
+- **Quick Access**: View all status transitions directly within the issue panel.
+- **Time Spent in Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
+- **Who and When**: The panel provides details on who made each status change and when the change occurred.
 
-Accessing the Issue Status Insight Panel
-Locate the Issue Panel: Open any issue to view the right-hand side panel.
-Panel Overview: The panel will display the status change history and the total time spent in each status.
-Viewing Status Change History
-Status Changes List: The panel will list each transition with details such as the change type, the user who made the change, and the timestamp.
-Time in Status: For each transition, view the time spent in the previous status before the change.
-Total Time Spent in Each Status
-Aggregated Time Summary: At the bottom of the panel, you will see a summary of the total time spent in each status, aggregated across all transitions.
+### 2. Aggregated Time in Status
+- **Total Time Summary**: At the bottom of the panel, the app shows the total time spent in each status across all transitions for the issue.
+- **Insightful Overview**: Gain a clear view of how long an issue has stayed in specific statuses, helping to identify bottlenecks or areas for improvement.
+
+---
+
+## The Problem It Solves
+
+### Why Was Issue Status Insight Built?
+In Jira, while you can access the full issue history, it lacks a simple, aggregated view of **time spent in each status**. Users often have to dig through detailed history logs to understand an issue’s progress, making it difficult to quickly identify where an issue spent the most time.
+
+### The Gap in Jira’s Functionality:
+- **Manual Calculations**: Jira’s issue history doesn’t calculate the time spent in each status automatically. Users have to manually derive this information by going through multiple entries.
+- **Cluttered History Logs**: With numerous changes logged in the issue history, it’s hard to focus solely on status changes and the time spent in each status.
+
+### How Issue Status Insight Fills the Gap:
+- **Clear and Concise Information**: Issue Status Insight provides a summary of **all status transitions** in one place, making it easy to track who changed the status and when.
+- **Time in Status Calculated Automatically**: The app calculates how long an issue remained in each status, saving users from having to manually figure this out.
+- **Aggregated View of Status Times**: At the bottom of the panel, the app presents an aggregated view of total time spent in each status across all transitions, allowing for quick insights into where an issue has spent most of its time.
+
+---
+
+## Installation
+
+1. Install the app from the Atlassian Marketplace or deploy it through your own Atlassian Forge environment.
+2. Once installed, the **Issue Status Insight** panel will appear on the right side of Jira issue views.
+3. No additional configuration is needed—just open any issue and start using the app to track status transitions and time spent in each status.
+
+---
+
+## Usage
+
+1. **Open a Jira Issue**: Navigate to any issue in Jira.
+2. **View Status Changes**: On the right-hand side of the issue view, locate the **Issue Status Insight** panel.
+3. **See Time in Status**: The app displays the time spent in each status, along with who made the changes and when.
+4. **Check the Total Time**: At the bottom of the panel, view the **total time spent in each status**, aggregated across all transitions.
+
+---
+
+## Support
+
+If you encounter any issues or have questions, feel free to reach out to our support team at [MJ Jugad Apps Support](mailto:support@mj-jugad-apps.atlassian.net).
+
+---
