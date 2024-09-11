@@ -1,6 +1,6 @@
 # Issue Status Insight
 
-**Issue Status Insight** is an Atlassian Forge app designed to provide a **quick, comprehensive view** of the time spent in each status of a Jira issue. It allows users to **easily track status transitions** and **aggregate the total time spent in each status** across all transitions, giving better insights into an issue’s lifecycle.
+**Issue Status Insight** is an Atlassian app designed to provide a **quick, comprehensive view** of the time spent in each status of a Jira issue(Time Between Statuses and Time in Status). It allows users to **easily track status transitions** and **aggregate the total time spent in each status** across all transitions, giving better insights into an issue’s lifecycle.
 
 ---
 
