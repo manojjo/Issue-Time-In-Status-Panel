@@ -8,7 +8,7 @@
 
 ### 1. Status Change History
 - **Quick Access**: View all status transitions directly within the issue panel.
-- **Time Spent in Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
+- **Time Spent between Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
 - **Who and When**: The panel provides details on who made each status change and when the change occurred.
 
 ### 2. Aggregated Time in Status
@@ -20,7 +20,7 @@
 ## The Problem It Solves
 
 ### Why Was Issue Status Insight Built?
-In Jira, while you can access the full issue history, it lacks a simple, aggregated view of **time spent in each status**. Users often have to dig through detailed history logs to understand an issue’s progress, making it difficult to quickly identify where an issue spent the most time.
+In Jira, while you can access the full issue history, it lacks a simple, aggregated view of **time spent in each status**. Users often have to dig through detailed history logs to understand an issue’s progress, making it difficult to quickly identify where an issue spent the most time and quick look on issue transitions.
 
 ### The Gap in Jira’s Functionality:
 - **Manual Calculations**: Jira’s issue history doesn’t calculate the time spent in each status automatically. Users have to manually derive this information by going through multiple entries.
