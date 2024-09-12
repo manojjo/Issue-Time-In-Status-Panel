@@ -6,6 +6,9 @@
 
 ## Features
 
+<img width="415" alt="Screenshot 2024-09-12 at 5 25 00 PM" src="https://github.com/user-attachments/assets/a88cf10d-8ecf-4909-b0f9-0e400961ec9f">
+
+
 ### 1. Status Change History
 - **Quick Access**: View all status transitions directly within the issue panel.
 - **Time Spent between Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
