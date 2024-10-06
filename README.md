@@ -1,38 +1,30 @@
 # Issue Status Insight
 
-**Issue Status Insight** is an Atlassian app designed to provide a **quick, comprehensive view** of the time spent in each status of a Jira issue(Time Between Statuses and Time in Status). It allows users to **easily track status transitions** and **aggregate the total time spent in each status** across all transitions, giving better insights into an issue’s lifecycle.
+**Issue Status Insight** is provides a comprehensive view of the time spent in each status of a Jira issue, including the time between statuses. It helps users track status transitions and aggregate total time spent across all transitions, enhancing insights into an issue’s lifecycle.
 
 ---
 
 ## Features
 
-<img width="415" alt="Screenshot 2024-09-12 at 5 25 00 PM" src="https://github.com/user-attachments/assets/a88cf10d-8ecf-4909-b0f9-0e400961ec9f">
+<img width="519" alt="image" src="https://github.com/user-attachments/assets/e09ea3f4-9568-4128-866e-967e3de73bea"> <img width="580" alt="image" src="https://github.com/user-attachments/assets/fea5e2e9-c0e1-407d-80f3-9743f1f55300"> <img width="585" alt="image" src="https://github.com/user-attachments/assets/1797138b-47d2-49ee-9a48-a6547bd475bf">
+
+
 
 
 ### 1. Status Change History
 - **Quick Access**: View all status transitions directly within the issue panel.
-- **Time Spent between Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
+- **Time Spent in Status**: For each status change, the app displays the time an issue spent in the previous status before transitioning.
 - **Who and When**: The panel provides details on who made each status change and when the change occurred.
 
 ### 2. Aggregated Time in Status
-- **Total Time Summary**: At the bottom of the panel, the app shows the total time spent in each status across all transitions for the issue.
-- **Insightful Overview**: Gain a clear view of how long an issue has stayed in specific statuses, helping to identify bottlenecks or areas for improvement.
+- **Total Time Summary**: Shows total time spent in each status across all transitions.
+- **Insightful Overview**: Quickly identify bottlenecks or areas for improvement.
 
 ---
 
 ## The Problem It Solves
 
-### Why Was Issue Status Insight Built?
-In Jira, while you can access the full issue history, it lacks a simple, aggregated view of **time spent in each status**. Users often have to dig through detailed history logs to understand an issue’s progress, making it difficult to quickly identify where an issue spent the most time and quick look on issue transitions.
-
-### The Gap in Jira’s Functionality:
-- **Manual Calculations**: Jira’s issue history doesn’t calculate the time spent in each status automatically. Users have to manually derive this information by going through multiple entries.
-- **Cluttered History Logs**: With numerous changes logged in the issue history, it’s hard to focus solely on status changes and the time spent in each status.
-
-### How Issue Status Insight Fills the Gap:
-- **Clear and Concise Information**: Issue Status Insight provides a summary of **all status transitions** in one place, making it easy to track who changed the status and when.
-- **Time in Status Calculated Automatically**: The app calculates how long an issue remained in each status, saving users from having to manually figure this out.
-- **Aggregated View of Status Times**: At the bottom of the panel, the app presents an aggregated view of total time spent in each status across all transitions, allowing for quick insights into where an issue has spent most of its time.
+Jira doesn’t provide an easy way to track how long an issue spends in each status, requiring users to sift through history logs. Issue Status Insight solves this by showing all status transitions in one place, automatically calculating time spent in each status, and offering an aggregated view of total time. While Board Insights focuses on stuck issues and provides broader reporting solutions, Issue Status Insight zooms in on individual issues, offering quick, detailed status insights directly at the issue level without needing to navigate to higher-level reports.
 
 ---
 
